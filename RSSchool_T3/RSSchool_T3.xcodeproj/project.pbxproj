@@ -20,6 +20,7 @@
 		E382155F225B533E00E3B12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E382155E225B533E00E3B12B /* Assets.xcassets */; };
 		E3821562225B533E00E3B12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3821560225B533E00E3B12B /* LaunchScreen.storyboard */; };
 		E3821565225B533E00E3B12B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3821564225B533E00E3B12B /* main.m */; };
+		E545E42D24389EF3009E862F /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E545E42C24389EF3009E862F /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		E3821570225B533E00E3B12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3821575225B533E00E3B12B /* RSSchool_T3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSchool_T3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E382157B225B533E00E3B12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E545E42B24389EF3009E862F /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		E545E42C24389EF3009E862F /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				25787FA52436460E0066701D /* Polynomial.pdf */,
 				25787F882436434A0066701D /* PolynomialConverter.h */,
 				25787F872436434A0066701D /* PolynomialConverter.m */,
+				E545E42B24389EF3009E862F /* Item.h */,
+				E545E42C24389EF3009E862F /* Item.m */,
 			);
 			path = 1;
 			sourceTree = "<group>";
@@ -307,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E545E42D24389EF3009E862F /* Item.m in Sources */,
 				E3821565225B533E00E3B12B /* main.m in Sources */,
 				25787F8E243643770066701D /* Combinator.m in Sources */,
 				25787F892436434A0066701D /* PolynomialConverter.m in Sources */,
